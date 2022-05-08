@@ -74,6 +74,10 @@ test('returns zero testh an empty array', ()=> {
     expect(sumArray([])).toBe(0);
   });
 
+
+
+
+  
 test('returns the number testh one number array', ()=> {
     expect(sumArray([4])).toBe(4);
   });

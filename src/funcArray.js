@@ -8,7 +8,7 @@
      }
     }
 
-     export function findLongestWord(words){
+    export function findLongestWord(words){
         let wordLongest = "";
         if(words.length === 0){
             return undefined;
@@ -18,21 +18,24 @@
                 wordLongest = words[i];
             }
         }
-        return wordLongest;
+            return wordLongest;
     }
 
-export function sumArray(array){
-        let suma = 0 
-        if(array.length === 0){ 
+    export function sumArray(array){
+       let suma = 0 
+       if(array.length === 0){ 
             return 0; 
-        } 
-    for(let i = 0; i < array.length ; i ++ ) { 
+       } 
+        for(let i = 0; i < array.length ; i ++ ) { 
         suma+= array[i]; 
-      } 
-      return suma 
+         } 
+        return suma 
     }
 
-export function averageNumbers(){}
+export function averageNumbers(){
+    let suma =
+
+}
 
 export function averageWordLength(){}
 
